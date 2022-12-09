@@ -10,6 +10,6 @@ int main(void)
 
 	alphabet = 'a';
 	while (alphabet <= 'z')
-		putchar (alphabet)
+		putchar (alphabet);
 		alphabet++;
 }
