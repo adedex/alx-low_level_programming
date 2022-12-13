@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: Print lower case alphabets using putchar
+ * print_alphabet - Print lower case alphabets using putchar
  * Return: 0
  */
 void print_alphabet(void)
