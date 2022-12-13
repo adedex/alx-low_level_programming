@@ -1,11 +1,10 @@
 #include <main.h>
-
 /**
  * main - Entry point
  * Description: Print lower case alphabets using putchar
  * Return: 0
  */
-int main(void)
+void print_alphabet(void);
 {
 	char lower_case;
 
