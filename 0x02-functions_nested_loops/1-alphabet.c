@@ -1,4 +1,5 @@
 #include <main.h>
+
 /**
  * main - Entry point
  * Description: Print lower case alphabets using putchar
