@@ -1,20 +1,24 @@
 #include "main.h"
+
 /**
- * print_last_digit - function that computes the absolute value of an integer
- * @p:  is the int that will use for the argument of the function
- * Return: 0
+ * print_last_digit - last digit
+ * @n: The int to print
+ * Return: Always 0.
  */
-int print_last_digit(int p)
+
+int print_last_digit(int n)
 {
-	if (p > 0 || p == 0)
-	{
-	_putchar (p % 10 + '0');
-	return (p % 10);
-	}
-	else
-	{
-	p = p * -1;
-	_putchar (p % 10 + '0');
-	return (p % 10);
-	}
+int last_digit;
+if (n < 0)
+{
+last_digit = (-1 * (n % 10));
+_putchar (last_digit + '0');
+return (last_digit);
+}
+else
+{
+last_digit = (n % 10);
+_putchar (last_digit + '0');
+return (last_digit);
+}
 }
