@@ -2,18 +2,32 @@
 #include "main.h"
 
 /**
- * print_numbers - function that print all numbers from
- * 0 to 9
+ * print_diagonal - prints a diagonal
+ * @n: parameter
  * Return: returns nothing
  */
 
-void print_numbers(void)
+void print_diagonal(int n)
 {
-	int n;
+	int len, space;
 
-	for (n = 0; n < 10; n++)
+	if (n > 0)
 	{
-		_putchar(n + '0');
+		for (len = 0; len < n; len++)
+		{
+			for (space = 0; space < len; space++)
+			{
+				putchar(' ');
+			}
+			putchar('\\');
+
+			if (len == (n - 1))
+			{
+				continue;
+			}
+			putchar('\n');
+		}
+
 	}
-	_putchar('\n');
+	putchar('\n');
 }
