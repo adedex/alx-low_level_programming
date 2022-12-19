@@ -6,10 +6,12 @@
  * Return : 0
  */
 void _puts(char *str)
-	char str[i];
+{
+	int i;
 
 	for(i = 0; str[i] != '\0'; i++;)
 	{
 	_puts(str[i]);
 	}
 	_puts('\n');
+}
