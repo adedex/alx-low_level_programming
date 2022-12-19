@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts: prihts string to stdout 
+ * _puts: prihts string to stdout
  * @str: pointer to the string yo print
  * Return : 0
  */
