@@ -29,10 +29,10 @@ int count_word(char *s)
 /**
  * **strtow - splits a string into words
  * @str: string to split
-<<<<<<< HEAD
-=======
- *
->>>>>>> a8b32138dbb04ea557b227579391cb554de7d9cd
+ * <<<<<<< HEAD
+ * =======
+
+ *>>>>>>> a8b32138dbb04ea557b227579391cb554de7d9cd
  * Return: pointer to an array of strings (Success)
  * or NULL (Error)
  */
