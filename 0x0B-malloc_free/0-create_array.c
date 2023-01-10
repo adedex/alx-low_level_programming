@@ -1,7 +1,7 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
 /**
- * create_array - check the code for Holberton School students.
+ * create_array - Create an array, and initialiazes it with a specific
  * @size: argument for size of the array
  * @c: argument for char
  * Return: Always 0.
